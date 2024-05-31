@@ -4,10 +4,9 @@
     "luxon": "^3.4.4"
   }
   ,
-  {
-    "scripts": {
-      "build": "npx @11ty/eleventy",
-      "build-ghpages": "npx @11ty/eleventy"
-    }
+  
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy"
   }
 }
