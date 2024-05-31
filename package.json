@@ -3,4 +3,10 @@
     "@11ty/eleventy": "^2.0.1",
     "luxon": "^3.4.4"
   }
+  ,
+  {
+    "scripts": {
+      "build": "npx @11ty/eleventy"
+    }
+  }
 }
