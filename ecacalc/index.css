@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+  font-family: "Helvetica";
+}
+
+.main {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 5px;
+grid-row-gap: 5px;
+}
+
+.parent {
+  /* grid-area: 1 / 2 / 5 / 5; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin-top:50px;
+}
+.noexpand {
+  min-width: 0;
+  min-height: 0;
+}
+
+.div1 { grid-area: 1 / 2 / 2 / 5; }
+.div2 { grid-area: 2 / 2 / 3 / 5; }
+.div3 { grid-area: 3 / 2 / 4 / 5; }
+.div4 { grid-area: 4 / 2 / 5 / 5; }
+.div5 { grid-area: 5 / 2 / 6 / 5; }
+
+.fl {
+  display:flex;
+  justify-content: space-between;
+}
+.mg {
+  margin-left: 3px;
+  margin-right: 10px;
+}
+
+.card-img {
+  height:200px;
+}
