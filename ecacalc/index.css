@@ -43,3 +43,11 @@ grid-row-gap: 5px;
 .card-img {
   height:200px;
 }
+
+.cent {
+  margin-left:20px;
+  width:100%;
+  justify-content:center;
+  align-content:center;
+  margin:auto;
+}
